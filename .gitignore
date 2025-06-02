@@ -1,0 +1,11 @@
+# Ignore Terraform state and secrets
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform/
+terraform/terraform.tfvars
+
+# General
+*.log
+*.zip
+.DS_Store
+.env
